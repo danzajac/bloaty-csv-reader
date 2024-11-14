@@ -783,7 +783,7 @@ const SymbolAnalyzer: React.FC = (): JSX.Element => {
                     name: part,
                     size: 0,
                     children: {},
-                    fullPath: path,
+                    fullPath: symbol.symbols,
                     originalSymbol: symbol.symbols,
                     instantiations: 0,
                   };
