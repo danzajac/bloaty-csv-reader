@@ -1,5 +1,9 @@
 # bloaty-csv-reader
 
+A tool to display [bloaty](https://github.com/google/bloaty) CSV files.
+
+[https://bloaty-csv-reader.vercel.app/](https://bloaty-csv-reader.vercel.app/)
+
 To install dependencies:
 
 ```bash
