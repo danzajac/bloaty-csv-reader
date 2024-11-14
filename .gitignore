@@ -118,7 +118,6 @@ out
 # Nuxt.js build / generate output
 
 .nuxt
-dist
 
 # Gatsby files
 
@@ -175,5 +174,4 @@ dist
 .DS_Store
 
 *.csv
-*.html
-*.js
+/*.{js,ts,tsx,html}
