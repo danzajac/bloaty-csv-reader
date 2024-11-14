@@ -174,7 +174,6 @@ dist
 # Finder (MacOS) folder config
 .DS_Store
 
-dist
 *.csv
 *.html
 *.js

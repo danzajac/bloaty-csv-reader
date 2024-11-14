@@ -8,6 +8,7 @@ export default function Page() {
         rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/tailwindcss@latest/dist/tailwind.min.css"
       />
+      {/** TODO: use metadata api once that's implemented. */}
       <title>Bloaty Symbol Analyzer</title>
 
       <SymbolAnalyzer />
