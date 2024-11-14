@@ -663,8 +663,9 @@ const SymbolAnalyzer: React.FC = (): JSX.Element => {
     const searchLower = searchTerm.toLowerCase();
     const matchesSearch =
       !searchTerm ||
-      node.name.toLowerCase().includes(searchLower) ||
-      (node.originalSymbol?.toLowerCase().includes(searchLower) ?? false);
+      (node.fullPath || node.originalSymbol || node.name)
+        .toLowerCase()
+        .includes(searchLower);
 
     return matchesCategory && matchesSearch;
   };
