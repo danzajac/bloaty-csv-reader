@@ -174,4 +174,7 @@ out
 .DS_Store
 
 *.csv
-/*.{js,ts,tsx,html}
+dist
+*.js
+*.css
+*.html
