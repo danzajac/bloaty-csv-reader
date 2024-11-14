@@ -175,5 +175,6 @@ dist
 .DS_Store
 
 dist
-.csv
-.html
+*.csv
+*.html
+*.js
