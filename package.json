@@ -1,5 +1,5 @@
 {
-  "name": "symbolsy",
+  "name": "bloaty-csv-reader",
   "module": "index.ts",
   "type": "module",
   "devDependencies": {
